@@ -1,4 +1,4 @@
 LingDataProcessScripts
 ======================
 
-Scripts that are useful for processing linguistic data (audio, text)
+Scripts that are useful for pre-processing linguistic data (audio, text)
