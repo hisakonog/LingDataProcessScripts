@@ -1,4 +1,4 @@
-# batch converting audio using ffmpeg 
+# batch converting audio formats using ffmpeg 
 # you need to be in the directory where the source files are. 
 # the code below assume that ffmpeg is in Applications. modify ffmpeg's directory according to where it is on your computer. 
 
