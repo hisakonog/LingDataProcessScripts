@@ -14,7 +14,9 @@ for f in *.wav; do /Applications/ffmpeg -i $f -ac 1 -ab 64000 -ar 22050 ${f%.*}.
 for f in *.wav; do /Applications/ffmpeg -i $f -f aiff -ab 128000 -ar 44100 ${f%.*}.aiff; done; 
 
 
-
-
 # to convert files individually, go to the directory that contains files to be converted, and simply name each file, for example;  
-/Applications/ffmpeg -i input.wav -ac 1 -ab 64000 -ar 22050 output.mp3  
+/Applications/ffmpeg -i input.wav -ac 1 -ab 64000 -ar 22050 output.mp3   
+
+
+# to convert .mov video to .mp4 individually
+/Applications/ffmpeg -i input.mov -vcodec copy -acodec copy output.mp4
